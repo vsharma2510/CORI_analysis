@@ -1,0 +1,120 @@
+  [SETUP]  Removing old CUORE_INSTALL from path: /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  Diana software environment set to /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  CUORE DB Host : stuart.lbl.gov:5432
+  [SETUP]  CUORE DB User : cuore
+  [SETUP]  CUORE DB Name : qdb
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+channel being added is 3522
+channel being added is 14
+channel being added is 15
+channel being added is 16
+channel being added is 19
+channel being added is 27
+channel being added is 28
+channel being added is 31
+channel being added is 43
+channel being added is 66
+channel being added is 68
+channel being added is 69
+channel being added is 104
+channel being added is 119
+channel being added is 121
+channel being added is 122
+channel being added is 123
+channel being added is 128
+channel being added is 130
+channel being added is 132
+channel being added is 134
+channel being added is 138
+channel being added is 143
+channel being added is 248
+channel being added is 264
+channel being added is 362
+channel being added is 518
+channel being added is 570
+channel being added is 651
+channel being added is 652
+channel being added is 690
+channel being added is 692
+channel being added is 781
+channel being added is 797
+channel being added is 836
+channel being added is 837
+channel being added is 854
+channel being added is 876
+channel being added is 877
+channel being added is 885
+channel being added is 887
+channel being added is 889
+channel being added is 890
+channel being added is 891
+channel being added is 891
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower001.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower002.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower003.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower004.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower005.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower006.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower007.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower008.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower009.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower010.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower011.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower012.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower013.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower014.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower015.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower016.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower017.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower018.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3522/calibration_Production_ds3522_tower019.list
+begin for channel 14
+begin for channel 15
+begin for channel 16
+begin for channel 19
+begin for channel 27
+begin for channel 28
+begin for channel 31
+begin for channel 43
+begin for channel 66
+begin for channel 68
+begin for channel 69
+begin for channel 104
+begin for channel 119
+begin for channel 121
+begin for channel 122
+begin for channel 123
+begin for channel 128
+begin for channel 130
+begin for channel 132
+begin for channel 134
+begin for channel 138
+begin for channel 143
+begin for channel 248
+begin for channel 264
+begin for channel 362
+begin for channel 518
+begin for channel 570
+begin for channel 651
+begin for channel 652
+begin for channel 690
+begin for channel 692
+begin for channel 781
+begin for channel 797
+begin for channel 836
+begin for channel 837
+begin for channel 854
+begin for channel 876
+begin for channel 877
+begin for channel 885
+begin for channel 887
+begin for channel 889
+begin for channel 890
+begin for channel 891
+begin for channel 891
+Saving file to /global/homes/v/vsharma2/Analysis_code/Miscalibration/Output/Total_StabAmp_ds3522.root
+Job finished

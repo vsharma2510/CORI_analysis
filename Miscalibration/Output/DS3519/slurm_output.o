@@ -1,0 +1,142 @@
+  [SETUP]  Removing old CUORE_INSTALL from path: /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  Diana software environment set to /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  CUORE DB Host : stuart.lbl.gov:5432
+  [SETUP]  CUORE DB User : cuore
+  [SETUP]  CUORE DB Name : qdb
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+channel being added is 3519
+channel being added is 5
+channel being added is 6
+channel being added is 14
+channel being added is 15
+channel being added is 16
+channel being added is 18
+channel being added is 29
+channel being added is 30
+channel being added is 31
+channel being added is 32
+channel being added is 34
+channel being added is 67
+channel being added is 89
+channel being added is 118
+channel being added is 119
+channel being added is 122
+channel being added is 135
+channel being added is 136
+channel being added is 250
+channel being added is 268
+channel being added is 291
+channel being added is 303
+channel being added is 331
+channel being added is 349
+channel being added is 360
+channel being added is 397
+channel being added is 442
+channel being added is 491
+channel being added is 518
+channel being added is 560
+channel being added is 561
+channel being added is 564
+channel being added is 648
+channel being added is 651
+channel being added is 691
+channel being added is 693
+channel being added is 707
+channel being added is 753
+channel being added is 765
+channel being added is 781
+channel being added is 794
+channel being added is 834
+channel being added is 836
+channel being added is 846
+channel being added is 874
+channel being added is 875
+channel being added is 885
+channel being added is 887
+channel being added is 888
+channel being added is 898
+channel being added is 901
+channel being added is 921
+channel being added is 922
+channel being added is 957
+channel being added is 957
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower001.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower002.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower003.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower004.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower005.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower006.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower007.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower008.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower009.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower010.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower011.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower012.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower013.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower014.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower015.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower016.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower017.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower018.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3519/calibration_Production_ds3519_tower019.list
+begin for channel 5
+begin for channel 6
+begin for channel 14
+begin for channel 15
+begin for channel 16
+begin for channel 18
+begin for channel 29
+begin for channel 30
+begin for channel 31
+begin for channel 32
+begin for channel 34
+begin for channel 67
+begin for channel 89
+begin for channel 118
+begin for channel 119
+begin for channel 122
+begin for channel 135
+begin for channel 136
+begin for channel 250
+begin for channel 268
+begin for channel 291
+begin for channel 303
+begin for channel 331
+begin for channel 349
+begin for channel 360
+begin for channel 397
+begin for channel 442
+begin for channel 491
+begin for channel 518
+begin for channel 560
+begin for channel 561
+begin for channel 564
+begin for channel 648
+begin for channel 651
+begin for channel 691
+begin for channel 693
+begin for channel 707
+begin for channel 753
+begin for channel 765
+begin for channel 781
+begin for channel 794
+begin for channel 834
+begin for channel 836
+begin for channel 846
+begin for channel 874
+begin for channel 875
+begin for channel 885
+begin for channel 887
+begin for channel 888
+begin for channel 898
+begin for channel 901
+begin for channel 921
+begin for channel 922
+begin for channel 957
+begin for channel 957
+Saving file to /global/homes/v/vsharma2/Analysis_code/Miscalibration/Output/Total_StabAmp_ds3519.root
+Job finished

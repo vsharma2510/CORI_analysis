@@ -1,0 +1,5 @@
+{
+  Cuore::QGlobalDataManager dm;
+
+  QTOBjectHandle<TH1D> spectHandle("spectrum");
+  

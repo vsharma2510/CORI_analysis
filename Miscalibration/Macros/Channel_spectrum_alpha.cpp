@@ -1,0 +1,105 @@
+#include <iostream>
+#include <fstream>
+#include <getopt.h>
+#include <vector>
+#include <string>
+#include <sstream>
+#include <iomanip>
+
+#include <TH2.h>
+#include <TROOT.h>
+#include <TCanvas.h>
+#include <TString.h>
+#include <TFile.h>
+#include <TLegend.h>
+
+
+#include "QCuore.hh"
+#include "QError.hh"
+#include "QObject.hh"
+#include "QGlobalHandle.hh"
+#include "QMessage.hh"
+#include "QGlobalDataManager.hh"
+#include "QDetChannelCollectionHandle.hh"
+#include "QDetChannelCollection.hh"
+#include "QHeader.hh"
+#include "QPulseInfo.hh"
+#include "QChain.hh"
+
+using namespace std;
+using namespace Cuore;
+
+int main(int argc, char* argv[]){
+
+  int x,tower,dataset;
+  QChain ch("qtree");
+  TString cut1,dir,listname,outputfile;
+  std::vector<int> channel;
+  std::vector<int>::iterator it;
+
+  TH1D* Total_h = new TH1D("total_h","Stabilized_Amplitude",12000,0.0,12000.0);
+  TH1D* h = new TH1D("h","Stabilized_Amplitude",12000,0.0,12000.0);
+  
+  ifstream listfile(argv[1]);
+  if(!listfile){
+    cout<<"Unable to open list file"<<endl;
+  }
+
+  while(listfile.good()){
+    listfile>>x;
+    cout<<"channel being added is "<<x<<endl;
+    channel.push_back(x);
+  }
+
+  dataset=channel[0];
+
+  for(int i=1;i<20;i++){
+
+    tower=i;
+    dir="/global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output";
+    listname.Form("%s/ds%d/calibration_Production_ds%d_tower%.3d.list",dir.Data(),dataset,dataset,tower);
+
+    cout<<"File being added is "<<listname.Data()<<endl;
+    int nAdded=ch.Add(listname.Data());
+    if(nAdded==0){
+      cout<<"Could not add file to chain"<<endl;
+    }
+  }
+
+  for(it=channel.begin()+1;it!=channel.end();it++){
+    cout<<"begin for channel "<<*it<<endl;
+    cut1.Form("IsPulser && Channel==%d", *it);
+    unsigned int sizeArr = ch.Draw("StabAmplitude_heaterTGS",cut1.Data(),"GOFF");
+    double* stabAmp = ch.GetV1();
+    double* StabAmp = new double [sizeArr];
+
+    for(int i=0;i<sizeArr;i++){
+      StabAmp[i]=stabAmp[i];
+      //cout<<"Amplitude value is "<<StabAmp[i]<<endl;
+    }
+
+    //TH1D* h = new TH1D("h","Stabilized_Amplitude",4000,3000.0,7000.0);
+    for(int i=0;i<sizeArr;i++){
+      h->Fill(StabAmp[i]);
+    }
+
+    Total_h->Add(h);
+    h->Reset("ICESM");
+  }
+
+  outputfile.Form("/global/homes/v/vsharma2/Analysis_code/Miscalibration/Output/Total_StabAmp/Total_StabAmp_ds%d_alpha.root",dataset);
+
+  cout<<"Saving file to "<<outputfile.Data()<<endl;
+  
+  TFile* HFile = TFile::Open(outputfile.Data(),"RECREATE");
+  HFile->cd();
+  Total_h->Write("histogram");
+  HFile->Close();
+  listfile.close();
+
+  return 0;
+}
+  
+
+  
+

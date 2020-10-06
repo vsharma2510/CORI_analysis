@@ -44,8 +44,7 @@ int main(int argc, char* argv[]){
   Cuore::QGlobalDataManager dm;
   dm.EnableCache(false);
   int x,tower;
-  double fit_par_H=1.;
-  double fit_par_C=1.;
+  double fit_par=1.;
   const int num_peaks=9;
 
   std::vector<int> channel;
@@ -53,32 +52,22 @@ int main(int argc, char* argv[]){
   TString dir = "/global/homes/v/vsharma2/Test_Diana/calib";
   int peak_list [num_peaks] = {239,338,583,511,911,969,1173,1333,2615};
 
-  TGraphErrors* Res_gr_H= NULL;
-  TGraphErrors* Res_gr_C= NULL;
+  TGraphErrors* Res_gr= NULL;
   TF1* line = NULL;
-  TF1* fit_H = NULL;
-  TF1* fit_C = NULL;
-  TGraphErrors* calgraph_H = NULL;
-  TGraphErrors* calgraph_C = NULL;
-  TGraph* gr_H = NULL;
-  TGraph* gr_C = NULL;
-  TGraphAsymmErrors* gr2_H = NULL;
-  TGraphAsymmErrors* gr2_C = NULL;
-  TH1D* hSpectrum_H = NULL;
-  TH1D* hSpectrum_C = NULL;
-  double* Energy_arr_H = NULL;
-  double* Res_arr_H = NULL;
-  double* Res_error_arr_H = NULL;
-  double* Energy_arr_C = NULL;
-  double* Res_arr_C = NULL;
-  double* Res_error_arr_C = NULL;
+  TF1* fit = NULL;
+  TGraphErrors* calgraph = NULL;
+  TGraph* gr = NULL;
+  TGraphAsymmErrors* gr2 = NULL;
+  TH1D* hSpectrum = NULL;
+  double* Energy_arr = NULL;
+  double* Res_arr = NULL;
+  double* Res_error_arr = NULL;
 
-  TCanvas* myCan_H = NULL;
-  TCanvas* myCan_C = NULL;
+  TCanvas* myCan = NULL;
   
   ifstream listfile(argv[1]);
   if(!listfile){
-    cout<<"!!!!!!!! Unable to open channel list file !!!!!!!!!"<<endl;
+    cout<<"Unable to open channel list file"<<endl;
   }
 
   /* ---------- Obtain list of miscalibrated channels ----------*/
@@ -86,7 +75,7 @@ int main(int argc, char* argv[]){
   while(getline(listfile,file_line)){
     stringstream ss(file_line);
     ss>>x;
-    cout<<"-------- channel being added is --------"<<x<<endl;
+    cout<<"channel being added is "<<x<<endl;
     channel.push_back(x);
   }
 
@@ -95,160 +84,107 @@ int main(int argc, char* argv[]){
   /*---------- Looping over miscalibrated channels ----------*/
   
   for(it=channel.begin()+1;it!=channel.end();it++){
-    cout<<"~~~~~~~~~~ begin for channel "<<*it<<"~~~~~~~~~~ "<<endl;
-    myCan_H = new TCanvas("can_H","can_H",2400,2400);
-    myCan_H->Divide(2,2,0.00001,0.01);
+    cout<<"~~~~~~~~~~begin for channel "<<*it<<"~~~~~~~~~~ "<<endl;
+    myCan = new TCanvas("can","can",2400,2400);
+    myCan->Divide(2,2,0.00001,0.01);
 
-    myCan_C = new TCanvas("can_C","can_C",2400,2400);
-    myCan_C->Divide(2,2,0.00001,0.01);
-    
     if(*it%52==0){tower=(*it)/52;}  
     else{tower=((*it)/52+1);}
     cout<<"Tower being worked on is "<<tower<<endl;
 
-    /* Setting up file names for heater_TGS */
-    
-    TString debug_file_name_heater = Form("%s/ds%d/wOF/debug/cal_debug_ds%d_tower%.3d.root",dir.Data(),dataset,dataset,tower);
-    TString cal_file_name_heater = Form("%s/ds%d/wOF/cal_coeffs_ds%d_tower%.3d.txt",dir.Data(),dataset,dataset,tower);
+    TString debug_file_name = Form("%s/ds%d/wOF/debug/cal_debug_ds%d_tower%.3d.root",dir.Data(),dataset,dataset,tower);
+    TString cal_file_name = Form("%s/ds%d/wOF/cal_coeffs_ds%d_tower%.3d.txt",dir.Data(),dataset,dataset,tower);
 
-     /* Setting up file names for calibration_TGS */
-    
-    TString debug_file_name_cal = Form("%s/ds%d/wOF_WoH/debug/cal_debug_ds%d_tower%.3d.root",dir.Data(),dataset,dataset,tower);
-    TString cal_file_name_cal = Form("%s/ds%d/wOF_WoH/cal_coeffs_ds%d_tower%.3d.txt",dir.Data(),dataset,dataset,tower);
+    cout<<debug_file_name<<endl;
+    cout<<cal_file_name<<endl;
 
-    cout<<debug_file_name_heater<<endl;
-    cout<<cal_file_name_heater<<endl;
-
-    unsigned int arr_size_H=0;
-    std::vector<double> Energy_H;
-    std::vector<double> Res_H;
-    std::vector<double> Res_error_H;
-
-    unsigned int arr_size_C=0;
-    std::vector<double> Energy_C;
-    std::vector<double> Res_C;
-    std::vector<double> Res_error_C;
+    unsigned int arr_size=0;
+    std::vector<double> Energy;
+    std::vector<double> Res;
+    std::vector<double> Res_error;
 
     /*---------- Plotting Residuals ----------*/
-
-    /* ---- For heaterTGS ---- */
     
-    QCalibrationParametersHandle paramHH((*it),dataset,"CalibrationParameters");
-    dm.Get("CalCoefficients_heaterTGS",&paramHH,cal_file_name_heater.Data());
-    myCan_H->cd(3);
-    if(paramHH.IsValid()){
-      const QCalibrationParameters& paramsH=paramHH.Get();
+    QCalibrationParametersHandle paramH((*it),dataset,"CalibrationParameters");
+    dm.Get("CalCoefficients_heaterTGS",&paramH,cal_file_name.Data());
+    myCan->cd(3);
+    if(paramH.IsValid()){
+      const QCalibrationParameters& params=paramH.Get();
       
       /* ---------- Looping over peaks ----------*/
-      for(int iR=0;iR<paramsH.fResiduals.size();iR++){
-	const QCalibrationResiduals& aResH=paramsH.GetCalibrationResidual(iR);
-	Energy_H.push_back(aResH.PeakEnergy);
-	Res_H.push_back(aResH.Residual);
-	Res_error_H.push_back(aResH.ErrorResidual);
-	cout<<"PeakEnergy   "<<aResH.PeakEnergy<<"   Residual   "<<aResH.Residual<<"   Residual Error   "<<aResH.ErrorResidual<<endl;
+      for(int iR=0;iR<params.fResiduals.size();iR++){
+	const QCalibrationResiduals& aRes=params.GetCalibrationResidual(iR);
+	Energy.push_back(aRes.PeakEnergy);
+	Res.push_back(aRes.Residual);
+	Res_error.push_back(aRes.ErrorResidual);
+	cout<<"PeakEnergy   "<<aRes.PeakEnergy<<"   Residual   "<<aRes.Residual<<"   Residual Error   "<<aRes.ErrorResidual<<endl;
 	cout<<"Success"<<endl;
       }
       
-      arr_size_H = Energy_H.size();
+      arr_size = Energy.size();
       //cout<<arr_size<<endl;
-      Energy_arr_H = new double [arr_size_H];
-      Res_arr_H = new double [arr_size_H];
-      Res_error_arr_H = new double [arr_size_H];
+      Energy_arr = new double [arr_size];
+      Res_arr = new double [arr_size];
+      Res_error_arr = new double [arr_size];
       
-      for(int i=0;i<arr_size_H;i++){
-	Energy_arr_H[i]=Energy_H[i];
-	Res_arr_H[i]=Res_H[i];
-	Res_error_arr_H[i]=Res_error_H[i];
+      for(int i=0;i<arr_size;i++){
+	Energy_arr[i]=Energy[i];
+	Res_arr[i]=Res[i];
+	Res_error_arr[i]=Res_error[i];
 	//cout<<Energy_arr[i]<<"   "<<Res_arr[i]<<"   "<<Res_error_arr[i]<<endl;
       }
       
-      Res_gr_H = new TGraphErrors(arr_size_H,Energy_arr_H,Res_arr_H,0,Res_error_arr_H);
+      Res_gr = new TGraphErrors(arr_size,Energy_arr,Res_arr,0,Res_error_arr);
       line = new TF1("line","[0]*x",0,3000);
       
       line->SetParameter(0,0);
       line->SetLineColor(kRed);
-      Res_gr_H->SetMarkerStyle(3);
-      Res_gr_H->SetMarkerSize(3.0);
-      Res_gr_H->GetXaxis()->SetTitle("Energy of peaks[keV]");
-      Res_gr_H->GetYaxis()->SetTitle("Fixed Energy - True Energy");
-      Res_gr_H->SetTitle(Form("Residuals for ch%d",*it));
-      Res_gr_H->Draw("AP");
+      Res_gr->SetMarkerStyle(3);
+      Res_gr->SetMarkerSize(3.0);
+      Res_gr->GetXaxis()->SetTitle("Energy of peaks[keV]");
+      Res_gr->GetYaxis()->SetTitle("Fixed Energy - True Energy");
+      Res_gr->SetTitle(Form("Residuals for ch%d",*it));
+      Res_gr->Draw("AP");
       line->Draw("SAME");
 
       /*delete[] Energy_arr;
       delete[] Res_arr;
       delete[] Res_error_arr;*/
     }
-    else{cout<<"Something went wrong with parameter handle for heater_TGS"<<endl;}
+    else{cout<<"Something went wrong with parameter handle"<<endl;}
 
-     /* ---- For calibrationTGS ---- */
-    
-    QCalibrationParametersHandle paramHC((*it),dataset,"CalibrationParameters");
-    dm.Get("CalCoefficients_calibrationTGS",&paramHC,cal_file_name_cal.Data());
-    myCan_C->cd(3);
-    if(paramHC.IsValid()){
-      const QCalibrationParameters& paramsC=paramHC.Get();
+    /* ---------- Plotting full spectrum ----------*/
+    /* myCan->cd(1);
+    QTObjectHandle<TH1D> spectHandle("spectrum");
+    spectHandle.SetChannel(*it);
+    dm.Get("CalCoefficients_heaterTGS",&spectHandle,debug_file_name.Data());
+    if(spectHandle.IsValid()){
+      Cuore::QTObject<TH1D> h = spectHandle.Get();
+      TH1D* hSpectrum = (TH1D*)(h.fObject.Clone(Form("clone_fullSpectrum%d",*it)));
       
-      /* ---------- Looping over peaks ----------*/
-      for(int iR=0;iR<paramsC.fResiduals.size();iR++){
-	const QCalibrationResiduals& aResC=paramsC.GetCalibrationResidual(iR);
-	Energy_C.push_back(aResC.PeakEnergy);
-	Res_C.push_back(aResC.Residual);
-	Res_error_C.push_back(aResC.ErrorResidual);
-	cout<<"PeakEnergy   "<<aResC.PeakEnergy<<"   Residual   "<<aResC.Residual<<"   Residual Error   "<<aResC.ErrorResidual<<endl;
-	cout<<"Success"<<endl;
-      }
-      
-      arr_size_C = Energy_C.size();
-      //cout<<arr_size<<endl;
-      Energy_arr_C = new double [arr_size_C];
-      Res_arr_C = new double [arr_size_C];
-      Res_error_arr_C = new double [arr_size_C];
-      
-      for(int i=0;i<arr_size_C;i++){
-	Energy_arr_C[i]=Energy_C[i];
-	Res_arr_C[i]=Res_C[i];
-	Res_error_arr_C[i]=Res_error_C[i];
-	//cout<<Energy_arr[i]<<"   "<<Res_arr[i]<<"   "<<Res_error_arr[i]<<endl;
-      }
-      
-      Res_gr_C = new TGraphErrors(arr_size_C,Energy_arr_C,Res_arr_C,0,Res_error_arr_C);
-      line = new TF1("line","[0]*x",0,3000);
-      
-      line->SetParameter(0,0);
-      line->SetLineColor(kRed);
-      Res_gr_C->SetMarkerStyle(3);
-      Res_gr_C->SetMarkerSize(3.0);
-      Res_gr_C->GetXaxis()->SetTitle("Energy of peaks[keV]");
-      Res_gr_C->GetYaxis()->SetTitle("Fixed Energy - True Energy");
-      Res_gr_C->SetTitle(Form("Residuals for ch%d",*it));
-      Res_gr_C->Draw("AP");
-      line->Draw("SAME");
-
-      /*delete[] Energy_arr;
-      delete[] Res_arr;
-      delete[] Res_error_arr;*/
+      //myCan->cd(1);
+      hSpectrum->SetTitle("Full stabilized amplitude sepctrum");
+      hSpectrum->SetXTitle("Stabilized Amplitude");
+      hSpectrum->SetYTitle("Counts");
+      hSpectrum->Draw();
+      //hSpectrum->Write();
     }
-    else{cout<<"Something went wrong with parameter handle for calibration_TGS"<<endl;}
-
+    else{cout<<"Something went wrong with spectHandle"<<endl;}*/
 
     /*---------- Plotting calibration function ----------*/
-    
-    /* ---- For heater_TGS ---- */
-    
-    myCan_H->cd(4);
-    QTObjectHandle<TF1> fitFunHandleH("CalFunction");
-    fitFunHandleH.SetChannel(*it);
-    dm.Get("CalCoefficients_heaterTGS",&fitFunHandleH,debug_file_name_heater.Data());
-    if(fitFunHandleH.IsValid()){
-      Cuore::QTObject<TF1> qfitH = fitFunHandleH.Get();
-      fit_H = (TF1*)(qfitH.fObject.Clone(Form("clone_fit%d",*it)));
-      fit_par = fit_H->GetParameter(0);
-      fit_H->SetTitle(Form("Calibration fit function for ch %d;Stabilized Amplitude (heater_TGS);Energy[keV]",*it));
-      fit_H->GetYaxis()->SetTitleOffset(1.45);
-      fit_H->Draw();
+    myCan->cd(4);
+    QTObjectHandle<TF1> fitFunHandle("CalFunction");
+    fitFunHandle.SetChannel(*it);
+    dm.Get("CalCoefficients_heaterTGS",&fitFunHandle,debug_file_name.Data());
+    if(fitFunHandle.IsValid()){
+      Cuore::QTObject<TF1> qfit = fitFunHandle.Get();
+      fit = (TF1*)(qfit.fObject.Clone(Form("clone_fit%d",*it)));
+      fit_par = fit->GetParameter(0);
+      fit->SetTitle(Form("Calibration fit function for ch %d;Stabilized Amplitude;Energy[keV]",*it));
+      fit->GetYaxis()->SetTitleOffset(1.45);
+      fit->Draw();
     }
-    else{cout<<"Something went wrong with fitFunHandle for heater_TGS"<<endl;}
+    else{cout<<"Something went wrong with fitFunHandle"<<endl;}
     
     QTObjectHandle<TGraphErrors> cgHandle("CalGraph");
     cgHandle.SetChannel((*it));
@@ -272,8 +208,25 @@ int main(int argc, char* argv[]){
       for(int j=0;j<num_peaks;j++){
 	if(abs(Energy[i]-peak_list[j])<20){temp_energy=peak_list[j];}
       }
+      //if(temp_energy==2615){continue;}
       /*---------- Plotting peak amplitude spectrum ----------*/
 
+      /*QTObjectHandle<TGraph> pHandle(Form("p%d",temp_energy));
+      pHandle.SetChannel((*it));
+      dm.Get("CalCoefficients_heaterTGS",&pHandle,debug_file_name.Data());
+      if(pHandle.IsValid()){
+	Cuore::QTObject<TGraph> gPeak;
+	gPeak = pHandle.Get();
+	//gPeak.fObject.Draw("AL");
+	gr = (TGraph*)(gPeak.fObject.Clone(Form("clone_%d",temp_energy)));
+	gr->GetXaxis()->SetTitle("Stabilized Amplitude");
+	gr->GetYaxis()->SetTitle("Counts");
+	gr->SetTitle(Form("Amplitude spectrum for peak of energy %d with fit",temp_energy));
+	gr->Draw("AL");
+	//gPeak.Clear();
+      }
+      else{cout<<"Something went wrong with peak Handle"<<endl;}*/
+      
       QTObjectHandle<TGraphAsymmErrors> pHistHandle(Form("p%d_hist",temp_energy));
       //cout<<"pHistHandle uses "<<temp_energy<<endl;
       pHistHandle.SetChannel((*it));

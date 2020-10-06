@@ -1,0 +1,990 @@
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch23_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 23 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch129_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 129 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch132_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 132 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch142_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 142 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch159_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 159 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch167_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 167 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch181_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 181 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch190_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 190 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch190_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 190 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch190_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 190 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch190_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 190 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch190_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 190 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch190_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 190 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch236_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 236 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch249_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 249 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch272_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 272 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch272_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 272 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch272_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 272 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch272_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 272 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch272_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 272 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch272_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 272 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch272_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 272 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch280_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 280 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch491_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 491 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch595_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 595 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch715_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 715 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch715_511_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 715 and calibration peak of 511 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch715_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 715 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch715_511_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 715 and calibration peak of 511 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch749_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 749 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch749_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 749 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch749_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 749 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch749_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 749 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch749_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 749 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch749_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 749 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch838_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 838 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch856_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 856 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch856_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 856 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch856_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 856 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch856_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 856 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch856_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 856 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch856_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 856 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_911_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 911 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch884_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 884 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_2615_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 2615 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_239_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 239 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_583_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 583 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_969_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 969 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_338_keV_heaterTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 338 keV for heaterTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_2615_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 2615 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_239_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 239 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_911_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 911 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_583_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 583 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_969_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 969 keV for calibrationTGS}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[/Users/vivek/Documents/Miscalibration_images/Cal_plots_images/ds3552/Alpha/cal_plot_ds3552_ch955_338_keV_calibrationTGS.pdf]
+\caption{Calibration plots for dataset 3552, channel 955 and calibration peak of 338 keV for calibrationTGS}
+\end{figure}

@@ -1,0 +1,22 @@
+void CheckEnergy(int dataset, int channel)
+{
+  TString dir = Form("/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds%d",dataset);
+  TString listname;
+  int tower;
+  if(channel%52==0){tower=(channel)/52;}  
+  else{tower=((channel)/52+1);}
+  cout<<"Tower being worked on is "<<tower<<endl;
+  listname.Form("%s/calibration_Production_ds%d_tower%.3d.list",dir.Data(),dataset,tower);
+  cout<<"The listfile is "<<listname.Data()<<endl;
+  QChain ch("qtree");
+  int nAdded=ch.Add(listname.Data());
+  if(nAdded==0){cout<<"nAdded id not work"<<endl;exit(1);}
+
+  TString cut;
+  cut.Form("Channel==%d",channel);
+  ch.Draw("Energy_OF>>a(3000,0,3000)",cut.Data(),"GOFF");
+  TH1D* h = (TH1D*)gROOT->Get("a");
+  h->GetXaxis()->SetTitle("Energy_OF [keV]");
+  h->GetYaxis()->SetTitle("Counts");
+  h->Draw();
+}

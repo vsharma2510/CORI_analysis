@@ -365,8 +365,8 @@ int main(int argc, char* argv[]){
 	hSpectrum_H->SetXTitle("Stabilized Amplitude (heaterTGS)");
 	hSpectrum_H->SetYTitle("Counts");
 	hSpectrum_H->Draw();
-	double range_lower_H = (temp_energy_H/fit_par_H)-200;
-	double range_upper_H = (temp_energy_H/fit_par_H)+200;
+	double range_lower_H = (temp_energy_H/fit_par_H)-500;
+	double range_upper_H = (temp_energy_H/fit_par_H)+500;
 	hSpectrum_H->GetXaxis()->SetRangeUser(range_lower_H,range_upper_H);
 	cout<<"spectHandle uses "<<temp_energy_H<<" with histogram range of "<<range_lower_H<<" "<<range_upper_H<<endl;
       }

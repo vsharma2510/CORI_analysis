@@ -253,7 +253,7 @@ int main(int argc, char* argv[]){
       Cuore::QTObject<TF1> qfitH = fitFunHandleH.Get();
       fit_H = (TF1*)(qfitH.fObject.Clone(Form("clone_fit%d",*it)));
       fit_par_H = fit_H->GetParameter(0);
-      fit_H->SetTitle(Form("Calibration fit function for ch %d;Stabilized Amplitude;             Energy[keV]",*it));
+      fit_H->SetTitle(Form("Calibration fit function for ch %d;Stabilized amplitude;             Energy[keV]",*it));
       fit_H->GetYaxis()->SetTitleOffset(1.55);
       fit_H->Draw();
     }
@@ -283,7 +283,7 @@ int main(int argc, char* argv[]){
       Cuore::QTObject<TF1> qfitC = fitFunHandleC.Get();
       fit_C = (TF1*)(qfitC.fObject.Clone(Form("clone_fit%d",*it)));
       fit_par_C = fit_C->GetParameter(0);
-      fit_C->SetTitle(Form("Calibration fit function for ch %d;Stabilized Amplitude                  ;Energy[keV]",*it));
+      fit_C->SetTitle(Form("Calibration fit function for ch %d;Stabilized amplitude                  ;Energy[keV]",*it));
       fit_C->GetYaxis()->SetTitleOffset(1.55);
       fit_C->Draw();
     }
@@ -330,7 +330,7 @@ int main(int argc, char* argv[]){
 	//TGraphAsymmErrors gr3=gAE.fObject;
 	//int n = gr3.GetN();
 	//cout<<"~~~~~number of points in gr3 are "<<n<<"~~~~~"<<endl;
-	gr2_H->GetXaxis()->SetTitle("Stabilized Amplitude");
+	gr2_H->GetXaxis()->SetTitle("Stabilized amplitude");
 	gr2_H->GetYaxis()->SetTitle("Counts");
 	gr2_H->SetTitle(Form("Fit (%d keV)",temp_energy_H));
 	gr2_H->SetMarkerSize(2.5);
@@ -347,7 +347,7 @@ int main(int argc, char* argv[]){
 	gPeakH = pHandleH.Get();
 	//gPeak.fObject.Draw("AL");
 	gr_H = (TGraph*)(gPeakH.fObject.Clone(Form("clone_%d",temp_energy_H)));
-	gr_H->GetXaxis()->SetTitle("Stabilized Amplitude");
+	gr_H->GetXaxis()->SetTitle("Stabilized amplitude");
 	gr_H->GetYaxis()->SetTitle("Counts");
 	gr_H->SetTitle(Form("Fit (%d keV)",temp_energy_H));
 	gr_H->Draw("SAME");
@@ -364,11 +364,11 @@ int main(int argc, char* argv[]){
 	Cuore::QTObject<TH1D> hH = spectHandleH.Get();
 	hSpectrum_H = (TH1D*)(hH.fObject.Clone(Form("clone_fullSpectrum%d",*it)));
 	hSpectrum_H->SetTitle(Form("Stabilized amplitude spectrum of ch%d",*it));
-	hSpectrum_H->SetXTitle("Stabilized Amplitude");
+	hSpectrum_H->SetXTitle("Stabilized amplitude");
 	hSpectrum_H->SetYTitle("Counts");
 	hSpectrum_H->Draw();
-	double range_lower_H = (temp_energy_H/fit_par_H)-1000;
-	double range_upper_H = (temp_energy_H/fit_par_H)+1000;
+	double range_lower_H = (temp_energy_H/fit_par_H)-500;
+	double range_upper_H = (temp_energy_H/fit_par_H)+500;
 	hSpectrum_H->GetXaxis()->SetRangeUser(range_lower_H,range_upper_H);
 	cout<<"spectHandle uses "<<temp_energy_H<<" with histogram range of "<<range_lower_H<<" "<<range_upper_H<<endl;
       }
@@ -433,7 +433,7 @@ int main(int argc, char* argv[]){
 	//TGraphAsymmErrors gr3=gAE.fObject;
 	//int n = gr3.GetN();
 	//cout<<"~~~~~number of points in gr3 are "<<n<<"~~~~~"<<endl;
-	gr2_C->GetXaxis()->SetTitle("Stabilized Amplitude");
+	gr2_C->GetXaxis()->SetTitle("Stabilized amplitude");
 	gr2_C->GetYaxis()->SetTitle("Counts");
 	gr2_C->SetTitle(Form("Fit (%d keV)",temp_energy_C));
 	gr2_C->SetMarkerSize(2.5);
@@ -450,7 +450,7 @@ int main(int argc, char* argv[]){
 	gPeakC = pHandleC.Get();
 	//gPeakC.fObject.Draw("AL");
 	gr_C = (TGraph*)(gPeakC.fObject.Clone(Form("clone_%d",temp_energy_C)));
-	gr_C->GetXaxis()->SetTitle("Stabilized Amplitude");
+	gr_C->GetXaxis()->SetTitle("Stabilized amplitude");
 	gr_C->GetYaxis()->SetTitle("Counts");
 	gr_C->SetTitle(Form("Fit (%d keV)",temp_energy_C));
 	gr_C->Draw("SAME");
@@ -467,11 +467,11 @@ int main(int argc, char* argv[]){
 	Cuore::QTObject<TH1D> hC = spectHandleC.Get();
 	hSpectrum_C = (TH1D*)(hC.fObject.Clone(Form("clone_fullSpectrum%d",*it)));
 	hSpectrum_C->SetTitle(Form("Stabilized amplitude spectrum for ch %d",*it));
-	hSpectrum_C->SetXTitle("Stabilized Amplitude");
+	hSpectrum_C->SetXTitle("Stabilized amplitude");
 	hSpectrum_C->SetYTitle("Counts");
 	hSpectrum_C->Draw();
-	double range_lower_C = (temp_energy_C/fit_par_C)-1000;
-	double range_upper_C = (temp_energy_C/fit_par_C)+1000;
+	double range_lower_C = (temp_energy_C/fit_par_C)-500;
+	double range_upper_C = (temp_energy_C/fit_par_C)+500;
 	hSpectrum_C->GetXaxis()->SetRangeUser(range_lower_C,range_upper_C);
 	cout<<"spectHandleC uses "<<temp_energy_C<<" with histogram range of "<<range_lower_C<<" "<<range_upper_C<<endl;
       }

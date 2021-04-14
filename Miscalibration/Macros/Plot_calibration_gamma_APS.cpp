@@ -102,10 +102,10 @@ int main(int argc, char* argv[]){
   
   for(it=channel.begin()+1;it!=channel.end();it++){
     cout<<"~~~~~~~~~~ begin for channel "<<*it<<"~~~~~~~~~~ "<<endl;
-    myCan_H = new TCanvas("can_H","can_H",2400,3000);
+    myCan_H = new TCanvas("can_H","can_H",3000,3000);
     myCan_H->Divide(2,2,0.01   ,0.00001);
 
-    myCan_C = new TCanvas("can_C","can_C",2400,3000);
+    myCan_C = new TCanvas("can_C","can_C",3000,3000);
     myCan_C->Divide(2,2,0.01   ,0.00001);
     
     if(*it%52==0){tower=(*it)/52;}  

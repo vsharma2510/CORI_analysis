@@ -1,0 +1,64 @@
+  [SETUP]  Removing old CUORE_INSTALL from path: /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  Diana software environment set to /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  CUORE DB Host : stuart.lbl.gov:5432
+  [SETUP]  CUORE DB User : cuore
+  [SETUP]  CUORE DB Name : qdb
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+channel being added is 3567
+channel being added is 12
+channel being added is 43
+channel being added is 91
+channel being added is 154
+channel being added is 217
+channel being added is 245
+channel being added is 260
+channel being added is 343
+channel being added is 493
+channel being added is 518
+channel being added is 519
+channel being added is 520
+channel being added is 603
+channel being added is 661
+channel being added is 715
+channel being added is 715
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower001.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower002.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower003.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower004.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower005.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower006.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower007.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower008.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower009.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower010.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower011.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower012.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower013.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower014.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower015.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower016.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower017.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower018.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3567/calibration_Production_ds3567_tower019.list
+begin for channel 12
+begin for channel 43
+begin for channel 91
+begin for channel 154
+begin for channel 217
+begin for channel 245
+begin for channel 260
+begin for channel 343
+begin for channel 493
+begin for channel 518
+begin for channel 519
+begin for channel 520
+begin for channel 603
+begin for channel 661
+begin for channel 715
+begin for channel 715
+Saving file to /global/homes/v/vsharma2/Analysis_code/Miscalibration/Output/Total_StabAmp_ds3567.root
+Job finished

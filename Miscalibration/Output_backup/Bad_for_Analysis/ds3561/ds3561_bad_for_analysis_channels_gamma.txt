@@ -1,0 +1,1 @@
+For channel 916 	 heaterTGS flag is 1 	 calibrationTGS flag is 0

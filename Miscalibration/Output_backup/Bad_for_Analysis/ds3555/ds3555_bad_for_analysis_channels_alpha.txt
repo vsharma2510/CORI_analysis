@@ -1,0 +1,2 @@
+For channel 312 	 heaterTGS flag is 0 	 calibrationTGS flag is 1
+For channel 781 	 heaterTGS flag is 1 	 calibrationTGS flag is 0

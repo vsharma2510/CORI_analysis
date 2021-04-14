@@ -1,0 +1,30 @@
+  [SETUP]  Removing old CUORE_INSTALL from path: /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  Diana software environment set to /global/common/software/m2812/soft/cuoresw-conservative
+  [SETUP]  CUORE DB Host : stuart.lbl.gov:5432
+  [SETUP]  CUORE DB User : cuore
+  [SETUP]  CUORE DB Name : qdb
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3555/calibration_Production_ds3555_tower001.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3555/calibration_Production_ds3555_tower002.list
+File being added is /global/project/projectdirs/cuore/syncData/CUORE/OfficialProcessed/spring2019_reprocessing/output/ds3555/calibration_Production_ds3555_tower003.list
+begin for channel 115
+begin for channel 317
+begin for channel 422
+begin for channel 436
+begin for channel 521
+begin for channel 697
+begin for channel 706
+begin for channel 720
+begin for channel 760
+begin for channel 786
+begin for channel 788
+begin for channel 798
+begin for channel 802
+begin for channel 822
+begin for channel 874
+begin for channel 874
+Job finished

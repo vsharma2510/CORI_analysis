@@ -1,0 +1,6 @@
+For channel 14 	 heaterTGS flag is 1 	 calibrationTGS flag is 0
+For channel 15 	 heaterTGS flag is 1 	 calibrationTGS flag is 0
+For channel 19 	 heaterTGS flag is 1 	 calibrationTGS flag is 0
+For channel 362 	 heaterTGS flag is 1 	 calibrationTGS flag is 0
+For channel 781 	 heaterTGS flag is 1 	 calibrationTGS flag is 0
+For channel 836 	 heaterTGS flag is 1 	 calibrationTGS flag is 0

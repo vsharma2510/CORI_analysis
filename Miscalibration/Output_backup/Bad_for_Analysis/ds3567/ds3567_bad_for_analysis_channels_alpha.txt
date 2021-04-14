@@ -1,0 +1,1 @@
+For channel 702 	 heaterTGS flag is 0 	 calibrationTGS flag is 1

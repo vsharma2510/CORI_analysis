@@ -366,6 +366,7 @@ int main(int argc, char* argv[]){
 	hSpectrum_H->SetTitle(Form("Stabilized amplitude spectrum of ch%d",*it));
 	hSpectrum_H->SetXTitle("Stabilized amplitude");
 	hSpectrum_H->SetYTitle("Counts");
+	hSpectrum_H->SetStats(0);
 	hSpectrum_H->Draw();
 	double range_lower_H = (temp_energy_H/fit_par_H)-500;
 	double range_upper_H = (temp_energy_H/fit_par_H)+500;
@@ -469,6 +470,7 @@ int main(int argc, char* argv[]){
 	hSpectrum_C->SetTitle(Form("Stabilized amplitude spectrum for ch %d",*it));
 	hSpectrum_C->SetXTitle("Stabilized amplitude");
 	hSpectrum_C->SetYTitle("Counts");
+	hSpectrum_C->SetStats(0);
 	hSpectrum_C->Draw();
 	double range_lower_C = (temp_energy_C/fit_par_C)-500;
 	double range_upper_C = (temp_energy_C/fit_par_C)+500;

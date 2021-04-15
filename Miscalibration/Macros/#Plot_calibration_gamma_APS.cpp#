@@ -368,8 +368,8 @@ int main(int argc, char* argv[]){
 	hSpectrum_H->SetYTitle("Counts");
 	hSpectrum_H->SetStats(0);
 	hSpectrum_H->Draw();
-	double range_lower_H = 200;
-	double range_upper_H = 4000;
+	//uble range_lower_H = (temp_energy_H/fit_par_H)-500;
+	//uble range_upper_H = (temp_energy_H/fit_par_H)+500;
 	hSpectrum_H->GetXaxis()->SetRangeUser(range_lower_H,range_upper_H);
 	cout<<"spectHandle uses "<<temp_energy_H<<" with histogram range of "<<range_lower_H<<" "<<range_upper_H<<endl;
       }
@@ -472,10 +472,10 @@ int main(int argc, char* argv[]){
 	hSpectrum_C->SetYTitle("Counts");
 	hSpectrum_C->SetStats(0);
 	hSpectrum_C->Draw();
-	//double range_lower_C = (temp_energy_C/fit_par_C)-500;
-	//double range_upper_C = (temp_energy_C/fit_par_C)+500;
-	//hSpectrum_C->GetXaxis()->SetRangeUser(range_lower_C,range_upper_C);
-	//cout<<"spectHandleC uses "<<temp_energy_C<<" with histogram range of "<<range_lower_C<<" "<<range_upper_C<<endl;
+	double range_lower_C = (temp_energy_C/fit_par_C)-500;
+	double range_upper_C = (temp_energy_C/fit_par_C)+500;
+	hSpectrum_C->GetXaxis()->SetRangeUser(range_lower_C,range_upper_C);
+	cout<<"spectHandleC uses "<<temp_energy_C<<" with histogram range of "<<range_lower_C<<" "<<range_upper_C<<endl;
       }
       else{cout<<"Something went wrong with spectHandle for calibrationTGS"<<endl;}
       
